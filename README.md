@@ -35,5 +35,5 @@ There, you have to write data for both inputs. Once you do it, click to send the
 
 ### More information    
 
-If you'd like to see how it works these procedures, I will give you the link to the endpoints that work:
+If you'd like to see how it works these procedures, I will give you the link to the endpoints on Postman:
 - [POSTMAN](https://www.getpostman.com/collections/d472723cac9da83b0e6a)
