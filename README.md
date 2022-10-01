@@ -32,3 +32,8 @@ Click on the list-button to list the invoices, to see the invoices registered in
 If you want to insert a new one, click on the insert-button to insert it.
 
 There, you have to write data for both inputs. Once you do it, click to send the data to the database, and the app will inmediatly show you that's been written correctly (it will send you to the list page).
+
+### More information    
+
+If you'd like to see how it works these procedures, I will give you the link to the endpoints that work:
+- [POSTMAN](https://www.getpostman.com/collections/d472723cac9da83b0e6a)
