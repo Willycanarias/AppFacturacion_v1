@@ -3,7 +3,7 @@ module.exports = app => {
 
     var router = require("express").Router();
 
-    router.post("/", facturas.create);
+    router.post("/", upload.single('file'),facturas.create);
 
     router.get("/", facturas.findAll);
 

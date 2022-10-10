@@ -3,7 +3,7 @@ const Factura = db.facturacion;
 const Op = db.Sequelize.Op;
 
 exports.create = (req, res) => {
-    if (!req.body.valorCif) {
+    if (!req.body.valorCif || !req.body.model) {
         res.status(400).send({
             message: "El contenido no puede estar vacío."
         });
@@ -13,6 +13,7 @@ exports.create = (req, res) => {
     const factura = {
         identificador: req.body.valorCif,
         proveedor: req.body.valorProveedor,
+        filename: req.file ? req.file.filename : ""
     };
 
     Factura.create(factura)
